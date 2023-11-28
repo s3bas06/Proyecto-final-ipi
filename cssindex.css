@@ -1,0 +1,166 @@
+/*Hoja de estilos CSS para el proyecto final de IPI */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,800&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(219, 219, 123);
+}
+
+
+header {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0px;
+    grid-auto-rows: minmax(30px, auto);
+    background-color:black;
+    border-style: groove;
+    border-radius: 10px;   
+}
+
+header p {
+    text-align: center;
+   color: white;
+}
+
+main {
+    margin-top: 10px;
+}
+
+#tittle {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    text-align: left;
+    margin-left: 150px;
+    grid-column: 2/5;
+    grid-row: 1/3;
+    padding-top: 50px;
+}
+
+span {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    grid-column: 1;
+    grid-row: 1/4;
+}
+
+#acerca {
+    text-align: left;
+    grid-column: 3;
+    grid-row: 3;
+}
+
+#contacto {
+    grid-column: 4;
+    grid-row: 3;
+    text-align: left;
+}
+
+#login {
+    grid-column: 5;
+    grid-row: 3;
+    text-align: left;
+}
+
+.principal {
+    font-family: 'Montserrat', sans-serif;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(230px, auto);
+    background-color:black
+}
+
+a {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+main a {
+    color: black;
+}
+
+.categorias {
+    padding: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+    background-color: rgb(226, 226, 77);
+    border-style: groove;
+    border-radius: 10px;
+    border-width: 10px;
+    border-color: rgb(146, 146, 39);
+}
+
+#rpg {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#fps {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+#survival {
+    grid-column: 4;
+    grid-row: 1;
+}
+
+#plataformas {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+#deportes {
+    grid-column: 3;
+    grid-row: 2;
+}
+
+#sandbox {
+    grid-column: 4;
+    grid-row: 2;
+}
+
+footer {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0px;
+    grid-auto-rows: minmax(0px, auto);
+    border-style: groove;
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 3px;
+}
+
+#temario {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#uabc {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+#copyright {
+    grid-column: 4;
+    grid-row: 1;
+}
+
+.general {
+    margin-left: 5px;
+    margin-right: 5px;
+    border-style: groove;
+    border-color: rgb(146, 146, 39);
+    border-width: 5px;
+    border-radius: 10px;
+}
